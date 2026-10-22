@@ -1,0 +1,7 @@
+/* overlays do sistema */
+.swal2-container,
+.modal,
+.dropdown,
+.toast {
+    z-index: 9999999;
+}
