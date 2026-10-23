@@ -81,13 +81,7 @@ class MenuHelper
 
     public static function getOthersItems()
     {
-        return [
-            [
-                'icon' => 'identification',
-                'name' => 'Funções',
-                'path' => '/painel/cargos?clear=1',
-                'can' => ['visualizar_cargos'],
-            ],
+        return [    
             [
                 'icon' => 'logs',
                 'name' => 'Logs',
